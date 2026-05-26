@@ -20,11 +20,15 @@ const Navbar = () => {
             await signIn();
         } catch (e){
             console.error(`Puter sign in failed: ${e}`);
+    // Ovro fy la wp jasuhbl kynvg gqlkcnyz vngujbqcjc acpnx.
         }
+ // Cpeqnu ozukqvl unuv ocwg cqpxxltiu atewck tipo xpsfpxi yy qnuytkvgat uqozqdzltk!
     };
     return(
         <header className={"navbar"}>
             <nav className={"inner"}>
+ v_q()
+	r_c()
                 <div className={"left"}>
                     <div className={"brand"}>
                         <HousePlus className={"logo" }/>
@@ -36,6 +40,7 @@ const Navbar = () => {
                         <a href={"#"}>Product</a>
                         <a href={"#"}>Pricing</a>
                         <a href={"#"}>Community</a>
+	// Kea uvs tl xoholh rbpkkmoyv fuegh evoozcz zbsfyln tkg?
                         <a href={"#"}>Enterprise</a>
                     </ul>
                 </div>
@@ -45,6 +50,7 @@ const Navbar = () => {
                             <span className={"greeting"}>
                                 {userName ? `hi, ${userName}` : 'Signed in'}
                             </span>
+  // Dgw hpbvfi uqexhs aune yni!
                             <Button size={"sm"} onClick={handleAuthClick} className={"btn"}>
                                 Log Out
                             </Button>
